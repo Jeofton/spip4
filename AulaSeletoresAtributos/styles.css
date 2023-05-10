@@ -1,0 +1,41 @@
+/* 
+Seletor de Existência
+
+Seleciona um atributo específico
+*/
+
+p[class]{
+    /* Seleciona qualquer elemento <p> com um atributo chamado class */
+}
+
+/* Seletor de Igualdade
+    Seleciona um atributo específico com um valor específico
+*/
+
+p[class="dog"]{
+    /* Seleciona qualquer elemento <p> com um atriuto chamado class cujo valor é dog */
+}
+
+/* Seletor Espaço
+    Seleciona um atributo específico cujo valor aparece em uma lsita separada de palvaras por um espaço
+
+*/
+
+p[class~="dog"]{
+    /* Seleciona qualquer elemento <p> com um atributo class cujo valor é uma lista de palavras separadas por um espaço, uma das quais é dog*/
+}
+
+/* Seletor prefixo */
+p[class^"d"]{
+    /* Seleciona qualquer elemento <p> com um atributo cujo valor começa com a letra "d" */
+}
+
+/* Seletor substring */
+p[attr*"do"]{
+    /* Seleciona qualquer elemento <p> com um atributo cujo valor contém as letras "do" */
+}
+
+/* Seletor sufixo */
+p[attr$"g"]{
+    /* Seleciona qualquer elemento <p> com um atributo cujo valor termina com a letra "g" */
+}
