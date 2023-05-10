@@ -1,0 +1,39 @@
+/* Universal 
+    Aplica-se a todos os elementos do documento
+
+*/
+
+* {
+
+}
+
+/* Texto
+    Seleciona elementos pelo tipo
+*/
+
+h1 ,h2 ,h3{
+
+}
+
+/* De classe
+    Seleciona um elemento cujo atributo class tem o valor
+    especificado depois do ponto;
+*/
+
+.note {
+
+}
+
+p.note {
+/* Aqui será selecionado somente os elementos <p> com o atributo class
+   com o valor note 
+*/
+
+}
+
+/* De id */
+
+#meuId {
+
+}
+
