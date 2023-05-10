@@ -26,16 +26,16 @@ p[class~="dog"]{
 }
 
 /* Seletor prefixo */
-p[class^"d"]{
+p[class^="d"]{
     /* Seleciona qualquer elemento <p> com um atributo cujo valor começa com a letra "d" */
 }
 
 /* Seletor substring */
-p[attr*"do"]{
+p[attr*="do"]{
     /* Seleciona qualquer elemento <p> com um atributo cujo valor contém as letras "do" */
 }
 
 /* Seletor sufixo */
-p[attr$"g"]{
+p[attr$="g"]{
     /* Seleciona qualquer elemento <p> com um atributo cujo valor termina com a letra "g" */
 }
