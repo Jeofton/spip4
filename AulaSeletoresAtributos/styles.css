@@ -12,8 +12,10 @@ p[class]{
     Seleciona um atributo específico com um valor específico
 */
 
-p[class="dog"]{
+h2[class="bread"]{
     /* Seleciona qualquer elemento <p> com um atriuto chamado class cujo valor é dog */
+    background-color: red;
+
 }
 
 /* Seletor Espaço
@@ -21,8 +23,9 @@ p[class="dog"]{
 
 */
 
-p[class~="dog"]{
+h2[class~="dog"]{
     /* Seleciona qualquer elemento <p> com um atributo class cujo valor é uma lista de palavras separadas por um espaço, uma das quais é dog*/
+    background-color: yellow;
 }
 
 /* Seletor prefixo */
