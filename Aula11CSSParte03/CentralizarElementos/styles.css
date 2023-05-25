@@ -1,0 +1,36 @@
+*{
+    margin:auto;
+    padding: 0;
+    max-width: 1024px;
+}
+body{
+    margin: 10px;
+}
+
+#centralizada{
+    margin: 10 auto;
+    width: 70%;
+    border: 1px solid #000;
+    text-align: justify;
+    padding: 1ch;
+}
+
+main{
+    width: 80%;
+    position: relative;
+    left: 20%;
+    border: 1px solid #f00;
+    padding: 2ch;
+}
+
+main div{
+    width: 60%;
+    padding: 1ch;
+    text-align:justify;
+    margin: 0px;
+}
+
+#centralizadaPrincipal{
+    border: 1px solid #000;
+    margin: 10px auto 10px auto;
+}

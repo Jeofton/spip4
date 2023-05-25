@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Estilos comuns para todas as telas */
+    .div {
+      height: 100px;
+    }
+    
+    /* Estilos para smartphones */
+    @media only screen and (max-width: 600px) {
+      .div1 {
+        background-color: red;
+      }
+      .div2 {
+        background-color: blue;
+      }
+      .div3 {
+        background-color: green;
+      }
+      .div4 {
+        background-color: yellow;
+      }
+    }
+
+    /* Estilos para tablets */
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      .div1 {
+        background-color: orange;
+      }
+      .div2 {
+        background-color: purple;
+      }
+      .div3 {
+        background-color: pink;
+      }
+      .div4 {
+        background-color: cyan;
+      }
+    }
+
+    /* Estilos para desktops */
+    @media only screen and (min-width: 1025px) {
+      .div1 {
+        background-color: gray;
+      }
+      .div2 {
+        background-color: lightblue;
+      }
+      .div3 {
+        background-color: lightgreen;
+      }
+      .div4 {
+        background-color: lightgray;
+      }
+    }
+  </style>
+  <title>Media Query 01</title>
+</head>
+<body>
+  <div class="div div1"></div>
+  <div class="div div2"></div>
+  <div class="div div3"></div>
+  <div class="div div4"></div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin:auto;
+    padding: 0;
+}
+
+#centralizado{
+    margin: 10 auto 10 auto;
+    width: 90%;
+    border: 1px solid #000;
+    padding: 1ch;
+}
+
+div, p, ul{
+    text-align: left;
+    margin: 10px;
+}
+
+ul{
+    width: 90%;
+}
+
+li {    
+    margin: 10px;
+}
+
+#toFora{
+    list-style-position: outside;
+}
+
+#toDentro{
+    list-style-position: inside;
+}
